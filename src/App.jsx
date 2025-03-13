@@ -1,10 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { Container } from "./Components/Layouts/Container";
-import { Header } from "./Components/Layouts/Header";
-import { Home } from "./Components/Pages/Home";
-import { Skills } from "./Components/Pages/Skills";
-import { Studies } from "./Components/Pages/Studies";
+import { Container } from "./Components/Layouts/Container/Container";
+import { Header } from "./Components/Layouts/Header/Header";
+import { Home } from "./Components/Pages/Home/Home";
+import { Skills } from "./Components/Pages/Skills/Skills";
+import { Studies } from "./Components/Pages/Studies/Studies";
+import { Footer } from "./Components/Layouts/Footer/Footer";
 
 export const App = () => {
   return (
@@ -17,9 +18,7 @@ export const App = () => {
           <Route path="/Studies" element={<Studies />} />
         </Routes>
       </Container>
-      <footer>
-        <h4> HOLA </h4>
-      </footer>
+      <Footer />
     </>
   )
 }
