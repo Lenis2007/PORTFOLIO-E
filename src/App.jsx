@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <>
       <Header />
-      <Container>
+      <Container styles="flex items-center justify-center min-h-[80vh]">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Skills" element={<Skills />} />
