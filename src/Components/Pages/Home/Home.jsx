@@ -3,7 +3,7 @@ import photo from "../../../assets/no-photo.jpg";
 
 export const Home = () => {
   return (
-    <section className='flex flex-col lg:flex-row items-center justify-center gap-15 p-5 rounded-lg text-white m-8 lg:m-auto lg:mt-20'>
+    <section className='flex flex-col lg:flex-row items-center justify-center gap-15 p-4 rounded-lg text-white m-8 lg:m-auto lg:mt-20'>
       
       <img
         src={photo}
