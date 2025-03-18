@@ -21,7 +21,7 @@ export const Footer = () => {
               icons={<FaFacebook className="text-white hover:text-blue-500 text-xl transition-colors" />}
             />
             <ItemSocial
-              url="https://github.com"
+              url="https://github.com/Lenis2007"
               icons={<FaGithub className="text-white hover:text-gray-500 text-xl transition-colors" />}
             />
           </div>
