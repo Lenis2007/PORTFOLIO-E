@@ -1,11 +1,11 @@
 import React from 'react'
 import { ItemSocial } from '../../UI/ItemSocial/ItemSocial';
-import { FaWhatsapp, FaGithub, FaFacebook } from "react-icons/fa";
+import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
     <>
-      <footer className="bg-gray-900 text-gray-400 py-4 text-center">
+      <footer className=" flex bg-gray-900 text-gray-400 py-4 text-center">
         <div className="container mx-auto flex flex-col gap-2.5 justify-between items-center">
           <p className="text-sm mb-4 md:mb-0">
             © 2025 Lenis Alfonso. Todos los derechos reservados
@@ -17,8 +17,8 @@ export const Footer = () => {
               icons={<FaWhatsapp className="text-white hover:text-green-400 text-xl transition-colors" />}
             />
             <ItemSocial
-              url="https://facebook.com"
-              icons={<FaFacebook className="text-white hover:text-blue-500 text-xl transition-colors" />}
+              url="www.linkedin.com/in/lenis-rocio"
+              icons={<FaLinkedin className="text-white hover:text-blue-500 text-xl transition-colors" />}
             />
             <ItemSocial
               url="https://github.com/Lenis2007"
