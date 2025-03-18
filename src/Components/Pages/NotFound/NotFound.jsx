@@ -1,4 +1,4 @@
-import notFound from '../../../assets/4042.jpg';
+import notFound from '../../../assets/404.jpg'
 
 import React from 'react'
 

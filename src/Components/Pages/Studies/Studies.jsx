@@ -21,6 +21,7 @@ export const Studies = () => {
                 content={{
                     "Técnico en Desarrollo de Software": "2021-2023",
                     "Tecnólogo en Análisis y Desarrollo de Software": "2024-2026",
+                    "Curso Básico RPA - Pix Studio": "2024"
                 }}
                 icon="👩🏼‍🎓"
             />

@@ -16,8 +16,8 @@ export const CardSmall = ({ contentTi = "Vacío", contentDes, content = [], icon
             <li key={index} className="relative pl-7">
               <span className="absolute left-0 top-0 text-[#FFC107]">{icon}</span>
               <div>
-                <p className="font-semibold text-w">{description}</p>
-                <p className="text-sm text-[#D1D5DB]">{year}</p>
+                <p className="font-semibold text-w text-[#D1D5DB]">{description}</p>
+                <p className="text-sm text-gray-400">{year}</p>
               </div>
             </li>
           ))}

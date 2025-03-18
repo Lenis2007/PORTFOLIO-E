@@ -17,7 +17,7 @@ export const Footer = () => {
               icons={<FaWhatsapp className="text-white hover:text-green-400 text-xl transition-colors" />}
             />
             <ItemSocial
-              url="www.linkedin.com/in/lenis-rocio"
+              url="https://www.linkedin.com/in/lenis-rocio-287bab338/"
               icons={<FaLinkedin className="text-white hover:text-blue-500 text-xl transition-colors" />}
             />
             <ItemSocial

@@ -1,17 +1,18 @@
 import React from "react";
-import photo from "../../../assets/no-photo.jpg";
+/* import photo from "../../../assets/no-photo.jpg"; */
+import me from "../../../assets/me.jpg";
 
 export const Home = () => {
   return (
-    
+
     <section className='flex h-full w-full flex-col lg:flex-row items-center justify-center gap-15 p-2 rounded-lg text-white m-8 lg:m-auto lg:mt-20'>
-      
+
       <img
-        src={photo}
+        src={me}
         alt="Perfil"
-        className='w-32 h-32 lg:w-40 lg:h-40 rounded-full object-cover'
+        className='w-35 h-35 lg:w-55 lg:h-55 rounded-full object-cover'
       />
-      
+
       <div className='text-center lg:text-left max-w-lg'>
         <h1 className='text-4xl font-bold mb-4 text-[#FFC107]'>Hola, soy Lenis Alfonso</h1>
         <p className='text-justify'>
