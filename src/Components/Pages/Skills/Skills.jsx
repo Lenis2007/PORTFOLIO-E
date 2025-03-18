@@ -4,7 +4,7 @@ import { CardSmall } from '../../UI/CardSmall/CardSmall'
 
 export const Skills = () => {
     return (
-        <section className='container mx-auto px-20'>
+        <section className='p-8 space-y-4'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-10'>
                 <BigCard>
                     <h2 className="text-3xl font-bold text-center text-[#FFC107] mb-8">Habilidades Técnicas</h2>
