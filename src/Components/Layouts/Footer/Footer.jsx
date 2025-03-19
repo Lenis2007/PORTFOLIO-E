@@ -27,7 +27,7 @@ export const Footer = () => {
             />
             <ItemSocial
               url="mailto:lenisalfonsocastillo@gmail.com?subject=Hola%20Lenis&body="
-              icons={<AiOutlineMail className="text-white hover:text-gray-500 text-xl transition-colors" />}
+              icons={<AiOutlineMail className="text-white hover:text-red-500 text-xl transition-colors" />}
             />
           </div>
         </div>
