@@ -26,7 +26,7 @@ export const Footer = () => {
               icons={<FaGithub className="text-white hover:text-gray-500 text-xl transition-colors" />}
             />
             <ItemSocial
-              url="https://lenisalfonsocastillo@gmail.com"
+              url="mailto:lenisalfonsocastillo@gmail.com?subject=Hola%20Lenis&body=Este%20es%20un%20mensaje%20predeterminado"
               icons={<AiOutlineMail className="text-white hover:text-gray-500 text-xl transition-colors" />}
             />
           </div>
