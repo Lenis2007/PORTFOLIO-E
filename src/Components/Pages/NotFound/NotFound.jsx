@@ -4,7 +4,7 @@ import React from 'react'
 
 export const NotFound = () => {
     return (
-        <section className="flex h-screen flex-col items-center justify-center text-center p-7">
+        <section className="flex flex-col items-center justify-center text-center p-7">
             <div className="max-w-lg shadow-lg px-6">
                 <img
                     className="w-full rounded-lg object-cover"
