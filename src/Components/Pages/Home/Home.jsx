@@ -5,7 +5,7 @@ import me from "../../../assets/me.jpg";
 export const Home = () => {
   return (
 
-    <section className='flex h-full w-full flex-col lg:flex-row items-center justify-center gap-15 p-2 rounded-lg text-white m-8 lg:m-auto lg:mt-20'>
+    <section className='flex h-full w-full flex-col lg:flex-row items-center justify-center gap-15 p-2 rounded-lg text-white m-8 lg:m-auto'>
 
       <img
         src={me}
