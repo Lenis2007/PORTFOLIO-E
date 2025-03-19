@@ -1,6 +1,7 @@
 import React from 'react'
 import { ItemSocial } from '../../UI/ItemSocial/ItemSocial';
 import { FaWhatsapp, FaGithub, FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 export const Footer = () => {
   return (
@@ -23,6 +24,10 @@ export const Footer = () => {
             <ItemSocial
               url="https://github.com/Lenis2007"
               icons={<FaGithub className="text-white hover:text-gray-500 text-xl transition-colors" />}
+            />
+            <ItemSocial
+              url="https://lenisalfonsocastillo@gmail.com"
+              icons={<AiOutlineMail className="text-white hover:text-gray-500 text-xl transition-colors" />}
             />
           </div>
         </div>
